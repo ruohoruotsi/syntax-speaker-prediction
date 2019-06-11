@@ -14,13 +14,14 @@ def audio_annotation(dataset, source):
         "progress": progress,
     }
 
+# {"html": "<audio controls autoplay loop><source src=\"http://localhost:9999/syntax131-0002.mp3\" type=\"audio/mp3\"></audio><p>Episode: 131, Second: 0002</p>",
+# "text": "E131:S0002"}
 
 def add_options(stream):
     """Helper function to add options to every task in a stream."""
     options = [
-        {"id": "scott", "text": "🤪🐂 Scott"},
-        {"id": "wes", "text": "🦈 Wes"},
-        {"id": "other", "text": "⛔️ other"},
+        {"id": "english", "text": "💬💬 English"},
+        {"id": "other",   "text": "⛔️⛔️ Not-English"},
     ]
     for task in stream:
         task["options"] = options

@@ -29,3 +29,15 @@ Helpful tools:
 - [pandas](https://pandas.pydata.org/) for data manipulation
 - [scikit-learn](https://scikit-learn.org/stable/index.html) for machine learning
 - [chartify](https://github.com/spotify/chartify/) for plots
+
+
+---
+### IOHAVOC Notes 
+
+ - run `01_download_mp3s_from_rss.ipynb` &rarr; grab data
+ - run `02_prodigy_data_creation.ipynb` &rarr; segment & prepare for labeling
+ - Add `syntax-label` to SQLite database &rarr;
+    - `$ prodigy dataset syntax-label "Syntax Speaker Labels"` 
+ - 
+ - run `04_label_data_processing.ipynb` to feature extract from labeled regions
+ - run `05_model_validation.ipynb` to
