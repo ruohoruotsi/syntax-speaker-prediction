@@ -34,6 +34,9 @@ Helpful tools:
 ---
 ### IOHAVOC Notes 
 
+`pip install prodigy-1.7.1-cp35.cp36.cp37-cp35m.cp36m.cp37m-macosx_10_13_x86_64.whl`
+
+
  - run `01_download_mp3s_from_rss.ipynb` &rarr; grab data
  - run `02_prodigy_data_creation.ipynb` &rarr; segment & prepare for labeling
  - Add `syntax-label` to SQLite database &rarr;
